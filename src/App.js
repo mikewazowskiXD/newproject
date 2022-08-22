@@ -11,9 +11,7 @@ export default function App() {
       <Content>
         <h1>Virtual Pioneer</h1>
         <center>
-          Example sj fdkmfdm dfkmdf dfkdmf dfkmfd frrfrff rrfrfr fr rrrffr frf
-          rrfrfr fr rrrffr frrrf frf rrfrfr fr rrrffr frrrf frf rrfrfr fr rrrffr
-          frrrf frrrf frfrf rfd
+          Example Example Example Example Example Example Example Example Example Example Example Example Example Example Example Example 
         </center>
       </Content>
     </Wrapper>
