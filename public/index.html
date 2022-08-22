@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Virtual Pioneer</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  	<link id="external-css" rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,700&amp;display=swap" media="all">
+</head>
+  <body>
+    <div id="abc">
+      <!-- Popup Div Starts Here -->
+      <div class="feedback-card">
+        <img
+          id="close"
+          src="https://icones.pro/wp-content/uploads/2021/08/icone-x-avec-cercle-bleue.png"
+          width="20px"
+          height="20px"
+          onclick="div_hide()"
+        />
+        <div class="feedback-header">
+          SEND FEEDBACK
+        </div>
+        <form class="feedback-body">
+          <input
+            ,type="email"
+            class="feedback-body__email"
+            placeholder="Email"
+          /><textarea
+            ,type="text"
+            class="feedback-body__message"
+            placeholder="Message"
+          ></textarea
+          ><button class="feedback-body__submit">SEND</button>
+        </form>
+      </div>
+      <!-- Popup Div Ends Here -->
+    </div>
+    <button onclick="div_show()" class="cybr-btn">
+      Contact<span aria-hidden>_</span>
+      <span aria-hidden class="cybr-btn__glitch">Contact_</span>
+      <span aria-hidden class="cybr-btn__tag">R25</span>
+    </button>
+
+    <p id="demo"></p>
+
+    <script>
+      function div_show() {
+        document.getElementById("abc").style.display = "block";
+      }
+    </script>
+    <script>
+      function div_hide() {
+        document.getElementById("abc").style.display = "none";
+      }
+    </script>
+    <div id="root"></div>
+  </body>
+</html>
