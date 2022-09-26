@@ -1,2 +1,3 @@
-# First project 
-Created with love :P
+Splashpage for virtual pioneer.
+
+Using: React, Three.js
